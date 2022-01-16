@@ -26,7 +26,7 @@ const [ user, setUser] = useState({
     const register = () => {
         const {name, email, password, reEnterPassword } = user
         if(name && email && password && (password === reEnterPassword)){
-            axios.post(`${baseUrl}/register`, user)
+            axios.post(`${baseUrl}/api/register`, user)
             .then(res => {
                 alert(res.data.message)
                 history.push("/login")

@@ -22,7 +22,7 @@ const Login = ( { updateUser } ) => {
         }
 
         const login = () => {
-            axios.post(`${baseUrl}/login`, user)
+            axios.post(`${baseUrl}/api/login`, user)
             .then(res => {
              updateUser(res.data.user)
              history.push("/")
