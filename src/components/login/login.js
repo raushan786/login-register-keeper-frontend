@@ -2,8 +2,9 @@ import React, {useState} from "react"
 import "./login.css"
 import axios from "axios"
 import { useHistory } from "react-router-dom"
+import baseUrl from "../../baseUrl"
 
-const Login = ( { setLoginUser } ) => {
+const Login = ( { updateUser } ) => {
 
     const history = useHistory()
 
@@ -21,10 +22,9 @@ const Login = ( { setLoginUser } ) => {
         }
 
         const login = () => {
-            axios.post("http://localhost:9002/login", user)
+            axios.post(`${baseUrl}/login`, user)
             .then(res => {
-             alert(res.data.message)
-             setLoginUser(res.data.user)
+             updateUser(res.data.user)
              history.push("/")
              })
         }
