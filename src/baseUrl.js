@@ -1,4 +1,4 @@
-const baseUrl = "https://login-keeper-backend.herokuapp.com"
+const baseUrl = "http://localhost:9002"
 
 export default baseUrl
 
