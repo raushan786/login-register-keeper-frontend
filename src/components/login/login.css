@@ -16,7 +16,7 @@
 
 .login{
     width: 400px;
-    height: 450px;
+    height: 420px;
     background: #fff;
     opacity: 0.9;
     border: 1px solid #dddfe2;
@@ -32,8 +32,8 @@
     border: 2px solid #dddfe2;
     outline: none;
     color: #1d2129;
-    margin: 0.9rem 0;
-    padding: 0.9rem 0.75rem;
+    margin: 0.8rem 0;
+    padding: 0.8rem 0.75rem;
     width: 92%;
     font-size: 1.1rem;
 }
@@ -43,8 +43,8 @@
     border: 1px solid #1877f2;
     color: #fff;
     font-size: 1.25rem;
-    padding: 0.9rem;
-    margin: 0.9rem 0;
+    padding: 0.8rem;
+    margin: 0.8rem 0;
     border-radius: 8px;
     outline: none;
     cursor: pointer;
