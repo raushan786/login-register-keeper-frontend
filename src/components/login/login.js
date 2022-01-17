@@ -30,6 +30,8 @@ const Login = ( { updateUser } ) => {
         }
 
     return(
+        
+        <div className="header">
         <div className="login">
           <h1>Login</h1>
           <input type="text" name="email" value={user.email} placeholder="Enter Your Email" onChange={handleChange}></input>
@@ -38,7 +40,9 @@ const Login = ( { updateUser } ) => {
            <div>or</div>
            <div className="button" onClick={() => navigate("/register")}>Register</div> 
         </div>
+        </div>
     )
+    
 }
 
 export default Login
