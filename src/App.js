@@ -4,9 +4,7 @@ import Login from './components/login/login'
 import Register from './components/register/register'
 import { BrowserRouter as Router, Routes, Route , Navigate } from "react-router-dom";
 import { useEffect, useState } from 'react'
-import { Redirect } from 'react-router'
-import axios from 'axios'
-import baseUrl from './baseUrl'
+
 
 function App() {
 
