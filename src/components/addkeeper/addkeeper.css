@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     background: rgb(0, 0, 0);
-    padding: 1rem;
+    padding: 2.8rem;
     border-radius: 20px;
     margin: 3rem auto;
     width: fit-content;
@@ -12,7 +12,7 @@
 .inputBox{
     border: none;
     border-radius: 10px;
-    margin: 0.5rem;
+    margin: 0.7rem;
     padding: 1rem;
     background: rgb(76, 76, 77);
     outline: none;
@@ -20,22 +20,23 @@
 
 .inputBox::placeholder{
     color: rgb(211, 202, 202);
+    font-size: 1.3rem;
 }
 
 .titleInput{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     color: rgb(82,171,240);
-    font-family: 'Texturia', serif;
+    font-family: "texturina", serif;
     background: rgb(76, 76, 77);
     
     
 }
 
 .description{
-    font-size: 1.1rem;
-    font-family: 'kanit', sans-serif;
-    min-height: 100px;
-    min-width: 400px;
+    font-size: 1.5rem;
+    font-family: "texturina", serif;
+    min-height: 140px;
+    min-width: 450px;
     color: rgb(102,201,156);
     resize: none;
     background: rgb(76, 76, 77);
@@ -44,10 +45,11 @@
 .addButton{
     color: black;
     font-weight: bold;
+    font-size: 1.5rem;
     background: linear-gradient(to bottom right, rgb(114, 248, 185), rgb(82,171,240));
     margin: 0.5rem auto;
     padding: 0.5rem 4.5rem;
-    font-family: 'Texturia', serif;
+    font-family: "texturina", serif;
     border-radius: 20px;
     box-shadow: rgba(50, 50, 93, 0.5) 0px 50px 100px -20px, rgba(0, 0, 0, 0.5) 0px 30px 60px -30px, rgba(10, 37, 64, 0.5) 0px 50px 100px -30px;
     cursor: pointer;

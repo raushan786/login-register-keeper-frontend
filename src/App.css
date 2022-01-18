@@ -1,9 +1,4 @@
 .App{
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    background: #f0f2f5;
-    font-family: Arial, sans-serif;
+    min-height: 100px;
+    background: linear-gradient(to bottom right, rgb(82, 171, 240), rgb(114, 248, 185));
 }

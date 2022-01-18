@@ -1,40 +1,25 @@
-.header{
-    display: flex;
-    width: 100%;
-    height: 100%;
-    background-image: url("../images/bg2.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    /* opacity: 0.5; */
-    border: 1px solid #dddfe2;
-    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
-    border-radius: 8px;
-    padding: 1rem;
-    align-items: center;
-    text-align: center;
-}
 
 .login{
-    width: 400px;
-    height: 420px;
-    background: #fff;
-    opacity: 0.9;
-    border: 1px solid #dddfe2;
-    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    width: 450px;
+    height: 550px;
+    background-color: darkgray;
+    border: 1px solid darkgray;
+    box-shadow: 0 4px 7px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
     border-radius: 8px;
-    padding: 1rem;
-    align-items: center;
-    text-align: center;
+    padding: 1.3rem;
+    margin-bottom: 150px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 10px;
+    
 }
 
 .login > input{
     border-radius: 8px;
-    border: 2px solid #dddfe2;
+    border: 2px solid #666464;
     outline: none;
     color: #1d2129;
-    margin: 0.8rem 0;
-    padding: 0.8rem 0.75rem;
-    width: 92%;
+    margin: 1rem 0;
+    padding: 0.9rem 0.75rem;
+    width: 100%;
     font-size: 1.1rem;
 }
 
@@ -44,15 +29,24 @@
     color: #fff;
     font-size: 1.25rem;
     padding: 0.8rem;
-    margin: 0.8rem 0;
+    margin: 1rem 0;
     border-radius: 8px;
     outline: none;
     cursor: pointer;
-
+    justify-content: center;
+    text-align: center;
 }
-h1{
+/* h1{
     justify-content: center;
     color: #000;
     font-size: 3.0rem;
-    
+    font-family: "texturina" serif; 
+} */
+
+p{
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: "texturina" serif;
 }
+
+

@@ -30,16 +30,14 @@ const Login = ( { updateUser } ) => {
         }
 
     return(
-        
-        <div className="header">
+       
         <div className="login">
           <h1>Login</h1>
           <input type="text" name="email" value={user.email} placeholder="Enter Your Email" onChange={handleChange}></input>
           <input type="password" name="password" value={user.password} placeholder="Enter Your Password" onChange={handleChange}></input>
            <div className="button" onClick={login}>Login</div>
-           <div>or</div>
+           <p>or</p>
            <div className="button" onClick={() => navigate("/register")}>Register</div> 
-        </div>
         </div>
     )
     
