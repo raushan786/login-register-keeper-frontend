@@ -2,9 +2,9 @@
     display: flex;
     flex-direction: column;
     background: rgb(0, 0, 0);
-    padding: 0.6rem;
+    padding: 0.2rem;
     border-radius: 20px;
-    margin: 2.5rem auto;
+    margin: 2.1rem auto;
     width: fit-content;
     box-shadow: rgba(0, 0, 0, 0.5) 10px 10px 20px;
 }
@@ -12,8 +12,8 @@
 .inputBox{
     border: none;
     border-radius: 10px;
-    margin: 0.7rem;
-    padding: 1rem;
+    margin: 0.8rem;
+    padding: 0.5rem;
     background: rgb(76, 76, 77);
     outline: none;
 }
@@ -35,7 +35,7 @@
 .description{
     font-size: 1.5rem;
     font-family: "texturina", serif;
-    min-height: 140px;
+    min-height: 130px;
     min-width: 450px;
     color: rgb(102,201,156);
     resize: none;
@@ -48,7 +48,7 @@
     font-size: 1.5rem;
     background: linear-gradient(to bottom right, rgb(114, 248, 185), rgb(82,171,240));
     margin: 0.5rem auto;
-    padding: 0.5rem 4.5rem;
+    padding: 0.4rem 3.5rem;
     font-family: "texturina", serif;
     border-radius: 20px;
     box-shadow: rgba(50, 50, 93, 0.5) 0px 50px 100px -20px, rgba(0, 0, 0, 0.5) 0px 30px 60px -30px, rgba(10, 37, 64, 0.5) 0px 50px 100px -30px;
