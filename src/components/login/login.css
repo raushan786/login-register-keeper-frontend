@@ -5,8 +5,8 @@
 }
 
 .login{
-    width: 380px;
-    height: 450px;
+    width: 300px;
+    height: 380px;
     background-color: darkgray;
     border: 1px solid darkgray;
     box-shadow: 0 4px 7px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
@@ -21,8 +21,8 @@
     border: 2px solid #666464;
     outline: none;
     color: #1d2129;
-    margin: 0.6rem 0;
-    padding: 0.6rem 0.75rem;
+    margin: 0.4rem 0;
+    padding: 0.4rem 0.75rem;
     width: 100%;
     font-size: 1.1rem;
 }
@@ -32,8 +32,8 @@
     border: 1px solid #1877f2;
     color: rgb(19, 18, 18);
     font-size: 1.45rem;
-    padding: 0.4rem;
-    margin: 0.7rem 0;
+    padding: 0.3rem;
+    margin: 0.5rem 0;
     border-radius: 8px;
     outline: none;
     cursor: pointer;

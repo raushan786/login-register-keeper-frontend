@@ -5,8 +5,8 @@
 }
 
 .register{
-    width: 380px;
-    height: 500px;
+    width: 320px;
+    height: 450px;
     background-color: darkgray;
     border: 1px solid darkgray;
     box-shadow: 0 4px 7px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
@@ -32,8 +32,8 @@
     border: 1px solid #1877f2;
     color: #000;
     font-size: 1.45rem;
-    padding: 0.4rem;
-    margin: 0.4rem 0;
+    padding: 0.1rem;
+    margin: 0.2rem 0;
     border-radius: 8px;
     outline: none;
     cursor: pointer;
