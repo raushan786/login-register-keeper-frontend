@@ -1,7 +1,7 @@
 .top{
     min-height: 900px;
     background: linear-gradient(to bottom right, rgb(82, 171, 240), rgb(114, 248, 185));
-    padding: 117px 299px 322px 316px;
+    padding: 117px 299px 424px 396px;
 }
 
 .login{
@@ -28,22 +28,23 @@
 }
 
 .login > .button{
-    background: #1877f2;
-    border: 1px solid #1877f2;
-    color: rgb(19, 18, 18);
-    font-size: 1.45rem;
-    padding: 0.1rem;
-    margin: 0.2rem 0;
-    border-radius: 8px;
-    outline: none;
-    cursor: pointer;
-    justify-content: center;
+    color: black;
     text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background: linear-gradient(to bottom right, rgb(8, 100, 57), rgb(21, 250, 250));
+    padding: 0.4rem;
+    margin: 0.4rem 0;
+    font-family: "Kanit", serif;
+    border-radius: 8px;
+    box-shadow: rgba(50, 50, 93, 0.5) 0px 50px 100px -20px, rgba(0, 0, 0, 0.5) 0px 30px 60px -30px, rgba(10, 37, 64, 0.5) 0px 50px 100px -30px;
+    cursor: pointer;
+    outline: none;
 }
 h1{
     text-align: center;
     color: #000;
-    font-family: "texturina", serif; 
+    font-family: "Kanit", serif; 
 }
 
 p{

@@ -6,7 +6,7 @@ import axios from "axios"
 import "../homepage/homepage.css"
 import baseUrl from "../../baseUrl"
 
-const Homepage = ( { updateUser, user, setLoginUser } ) => {
+const Homepage = ( { updateUser, user } ) => {
 
     const [ keeperList, setKeeperList ] = useState([])
 

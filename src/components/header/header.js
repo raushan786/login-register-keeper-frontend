@@ -1,10 +1,12 @@
-import React from "react"
+import React, { useReducer } from "react"
 import "./header.css"
 
-const Header = ({updateUser}) => {
+const Header = ({updateUser, user}) => {
+    var user = JSON.parse(localStorage.getItem('user'));
     return(
-        <div class="header">
-        <h2>The Keeper App</h2>
+        <div className="header">
+        <div className="name">Welcome {user.name}</div>
+        <h2>Keeper App</h2>
         <div className="button" onClick= {() => updateUser({})}>Logout</div>
     </div>
     )

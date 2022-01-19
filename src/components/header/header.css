@@ -2,14 +2,29 @@
   width: 100%;
   display: flex;
   padding: 0.55rem;
+  text-align: center;
   background: black;
   color: rgb(82, 171, 240);
   justify-content: center;
-  font-family: "texturina", serif;
+  font-family: "kanit", serif;
   font-weight: bold;
   box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 10px;
   
   }
+
+.name{
+  color: black;
+  font-weight: bold;
+  font-size: 1.2rem;
+  background: linear-gradient(to bottom right, rgb(114, 248, 185), rgb(82,171,240));
+  margin: 0.6rem auto;
+  padding: 0.2rem 2.5rem;
+  font-family: "texturina", serif;
+  border-radius: 20px;
+  box-shadow: rgba(50, 50, 93, 0.5) 0px 50px 100px -20px, rgba(0, 0, 0, 0.5) 0px 30px 60px -30px, rgba(10, 37, 64, 0.5) 0px 50px 100px -30px;
+  margin-left: 0px;
+}
+
   .button{
     color: black;
     font-weight: bold;
