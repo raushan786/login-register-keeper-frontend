@@ -39,7 +39,7 @@ const [ user, setUser] = useState({
     return(
         <div className="top">
         <div className="register">
-          <h1 className="title">Register</h1>
+          <h1 className="title1">Register</h1>
           <input type="text" name="name" value={user.name} placeholder="Enter Name" onChange={handleChange}></input>
           <input type="text" name="email" value={user.email} placeholder="Enter Email" onChange={handleChange}></input>
           <input type="password" name="password" value={user.password} placeholder="Enter Password" onChange={handleChange}></input>
