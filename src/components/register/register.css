@@ -1,12 +1,12 @@
 .top{
     min-height: 900px;
     background: linear-gradient(to bottom right, rgb(82, 171, 240), rgb(114, 248, 185));
-    padding: 140px 0px 0px 720px ;
+    padding: 100px 0px 0px 520px ;
 }
 
 .register{
-    width: 450px;
-    height: 670px;
+    width: 400px;
+    height: 620px;
     background-color: darkgray;
     border: 1px solid darkgray;
     box-shadow: 0 4px 7px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
@@ -21,8 +21,8 @@
     border: 2px solid #666464;
     outline: none;
     color: #1d2129;
-    margin: 0.9rem 0;
-    padding: 0.7rem 0.75rem;
+    margin: 0.7rem 0;
+    padding: 0.6rem 0.75rem;
     width: 100%;
     font-size: 1.1rem;
 }
