@@ -1,7 +1,7 @@
 .header{
   width: 100%;
   display: flex;
-  padding: 0.75rem;
+  padding: 0.55rem;
   background: black;
   color: rgb(82, 171, 240);
   justify-content: center;
@@ -12,7 +12,7 @@
   .button{
     color: black;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     background: linear-gradient(to bottom right, rgb(114, 248, 185), rgb(82,171,240));
     margin: 0.5rem auto;
     padding: 0.5rem 4.5rem;
