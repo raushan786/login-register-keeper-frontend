@@ -6,7 +6,7 @@ const Header = ({updateUser, user}) => {
     return(
         <div className="header">
         <div className="name">Welcome {user.name}</div>
-        <h2>Keeper App</h2>
+        <h2 className="appname">Keeper App</h2>
         <div className="button" onClick= {() => updateUser({})}>Logout</div>
     </div>
     )
