@@ -1,3 +1,8 @@
+.top{
+    min-height: 900px;
+    background: linear-gradient(to bottom right, rgb(82, 171, 240), rgb(114, 248, 185));
+    padding: 170px 0px 0px 720px ;
+}
 
 .login{
     width: 450px;
@@ -7,7 +12,6 @@
     box-shadow: 0 4px 7px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
     border-radius: 8px;
     padding: 1.3rem;
-    margin-bottom: 150px;
     box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 10px;
     
 }
@@ -26,22 +30,22 @@
 .login > .button{
     background: #1877f2;
     border: 1px solid #1877f2;
-    color: #fff;
-    font-size: 1.25rem;
-    padding: 0.8rem;
-    margin: 1rem 0;
+    color: rgb(19, 18, 18);
+    font-size: 1.45rem;
+    padding: 0.6rem;
+    margin: 0.9rem 0;
     border-radius: 8px;
     outline: none;
     cursor: pointer;
     justify-content: center;
     text-align: center;
 }
-/* h1{
+.title{
     justify-content: center;
     color: #000;
     font-size: 3.0rem;
     font-family: "texturina" serif; 
-} */
+}
 
 p{
     text-align: center;

@@ -22,22 +22,28 @@ const Login = ( { updateUser } ) => {
         }
 
         const login = () => {
+            const {email, password} = user
+            if(email && password){
             axios.post(`${baseUrl}/api/login`, user)
             .then(res => {
              updateUser(res.data.user)
              navigate("/")
              })
+            }else{
+                alert("invalid input")
+             }
         }
 
     return(
-       
+        <div className="top">
         <div className="login">
-          <h1>Login</h1>
+          <h1 className="title">Login</h1>
           <input type="text" name="email" value={user.email} placeholder="Enter Your Email" onChange={handleChange}></input>
           <input type="password" name="password" value={user.password} placeholder="Enter Your Password" onChange={handleChange}></input>
            <div className="button" onClick={login}>Login</div>
            <p>or</p>
            <div className="button" onClick={() => navigate("/register")}>Register</div> 
+        </div>
         </div>
     )
     
