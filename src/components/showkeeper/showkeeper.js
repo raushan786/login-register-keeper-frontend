@@ -15,7 +15,7 @@ const deleteKeeper = (id) => {
                 {
                     keeperList.map(keeper =>(
                     <div className="keepercard col-md-3" key= {keeper._id}>
-                        <h1 className="title">{keeper.title} <i className= "deleteIcon fas fa-trash-alt" aria-hidden="true" onClick={() => deleteKeeper(keeper._id)} ></i></h1>
+                        <h1 className="title1">{keeper.title} <i className= "deleteIcon fas fa-trash-alt" aria-hidden="true" onClick={() => deleteKeeper(keeper._id)} ></i></h1>
                         <textarea className="descriptionBox" value={keeper.description} readOnly />
                     </div>
                     ))
