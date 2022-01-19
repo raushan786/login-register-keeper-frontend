@@ -17,7 +17,7 @@ const Homepage = ( { updateUser, user, setLoginUser } ) => {
 
     return(
         <div>
-            <Header  setLoginUser={setLoginUser}/>
+            <Header  updateUser={updateUser}/>
      <Addkeeper user={user} keeperList={keeperList} setKeeperList={setKeeperList} />
      <ShowKeeper   user={user} keeperList={keeperList} setKeeperList={setKeeperList} />
         </div>

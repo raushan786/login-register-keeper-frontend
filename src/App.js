@@ -23,7 +23,7 @@ function App() {
     <div className="App">
       <Router>
 				<Routes>
-					<Route index element={ user&& user._id ? <Homepage  updateUser={updateUser} user={user}  setLoginUser={setLoginUser}/>  : <Login  updateUser={updateUser} /> } />
+					<Route index element={ user&& user._id ? <Homepage  updateUser={updateUser} user={user}  />  : <Login  updateUser={updateUser} /> } />
 					<Route path="/login" element={ <Login  updateUser={updateUser} />} />
 					<Route path="/register" element={<Register />} />
 				</Routes>
