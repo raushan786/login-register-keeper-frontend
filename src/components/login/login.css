@@ -6,12 +6,12 @@
 
 .login{
     width: 300px;
-    height: 380px;
+    height: 350px;
     background-color: darkgray;
     border: 1px solid darkgray;
     box-shadow: 0 4px 7px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
     border-radius: 8px;
-    padding: 1.3rem;
+    padding: 0.9rem;
     box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 10px;
     
 }
@@ -32,8 +32,8 @@
     border: 1px solid #1877f2;
     color: rgb(19, 18, 18);
     font-size: 1.45rem;
-    padding: 0.3rem;
-    margin: 0.5rem 0;
+    padding: 0.1rem;
+    margin: 0.2rem 0;
     border-radius: 8px;
     outline: none;
     cursor: pointer;

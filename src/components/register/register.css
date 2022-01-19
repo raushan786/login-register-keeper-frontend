@@ -5,13 +5,13 @@
 }
 
 .register{
-    width: 320px;
+    width: 310px;
     height: 450px;
     background-color: darkgray;
     border: 1px solid darkgray;
     box-shadow: 0 4px 7px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
     border-radius: 8px;
-    padding: 1.3rem;
+    padding: 1rem;
     box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 10px;
     
 }
